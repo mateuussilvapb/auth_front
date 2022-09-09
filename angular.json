@@ -100,8 +100,17 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/auth_front/"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "f8efba1f-33bb-4f84-9f84-45f9df4c1175"
   }
 }
